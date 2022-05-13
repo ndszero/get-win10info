@@ -1802,7 +1802,7 @@ Write-Output "[INFO] Script running in $mode mode."
         $table.cell(5,2).range.text = $xml.info.winver.buildbranch
         $table.cell(6,1).range.text = "Version"
         $table.cell(6,2).range.text = $xml.info.winver.version
-        $table.cell(7,1).range.text = "Registered Organisation"
+        $table.cell(7,1).range.text = "Registered Organization"
         $table.cell(7,2).range.text = $xml.info.winver.registeredorganization
         $table.cell(8,1).range.text = "Registered Owner"
         $table.cell(8,2).range.text = $xml.info.winver.registeredowner
